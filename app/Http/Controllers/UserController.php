@@ -58,7 +58,7 @@ class UserController extends Controller
 
         return response([
             'token' => $token,
-        ], 200);
+        ], 201);
     }
 
     //We need logout also for security reason
